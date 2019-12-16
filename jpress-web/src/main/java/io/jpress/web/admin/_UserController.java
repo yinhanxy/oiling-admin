@@ -319,7 +319,7 @@ public class _UserController extends AdminControllerBase {
     }
 
 
-    @AdminMenu(text = "会员组", groupId = JPressConsts.SYSTEM_MENU_USER, order = 4)
+    @AdminMenu(text = "会员卡", groupId = JPressConsts.SYSTEM_MENU_USER, order = 4)
     public void mgroup() {
         List<MemberGroup> memberGroups = memberGroupService.findAll();
         setAttr("memberGroups", memberGroups);
